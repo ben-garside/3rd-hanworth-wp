@@ -1,0 +1,16 @@
+.tribe-this-week-widget-weekday-wrapper {
+margin-bottom: 10px;
+min-height: 170px;
+overflow: hidden;
+background-color: #212226;
+}
+.tribe-this-week-widget-horizontal .tribe-this-week-widget-day {
+color: white;
+}
+.tribe-this-week-widget-horizontal .entry-title, .tribe-this-week-widget-horizontal .entry-title a {
+color: #8e0304;
+font-size: 14px;
+}
+.this-week-today .tribe-this-week-widget-header-date {
+background-color: #930027;
+}

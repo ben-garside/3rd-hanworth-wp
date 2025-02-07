@@ -1,0 +1,112 @@
+#tribe-events .button {
+border: 0;
+border-radius: 5px;
+background: #ff051078;
+cursor: pointer;
+color: #fff;
+display: inline-block;
+font-size: 14px;
+font-weight: 400;
+font-family: Nunito Sans;
+letter-spacing: 1px;
+line-height: 1;
+height: auto;
+padding: 10px;
+text-align: center;
+-webkit-transition: all .15s ease-in-out;
+transition: all .15s ease-in-out;
+-webkit-font-smoothing: subpixel-antialiased;
+}
+.tribe-events-style-full .tribe-events-tickets .woocommerce {
+border-bottom: 0px solid #dfdfdf;
+}
+.tribe-events-tickets-rsvp .tribe-ticket.quantity {
+border-bottom: 0;
+}
+.tribe-events-tickets {
+/*background: #141518;*/
+border: 0;
+border-radius: 3px;
+position: relative
+}
+.tribe-events-tickets .tickets_description, .tribe-events-tickets .tickets_name, .tribe-events-tickets .tickets_name p, .tribe-events-tickets .tickets_price {
+/*color: #FFFFFF;*/
+}
+.tribe-events-tickets .tickets_name {
+font-family: Nunito Sans;
+font-weight: 900;
+}
+.tribe-rsvp-message-success {
+    background-color: #2db351;
+    border-color: #2db351;
+}
+.tribe-block__tickets__registration__event {
+border-radius: 10px;
+margin-top: 30px;
+}
+.tribe-common.tribe-tickets{
+ max-width:100%;
+}
+
+.tribe-common *{
+ font-family:Nunito Sans!important;
+}
+
+.tribe-common .tribe-common-h5{
+ font-weight:900;
+}
+
+.tribe-common .tribe-common-h4{
+ font-weight:900;
+ font-size:26px;
+}
+
+.tribe-common .tribe-common-h3{
+ font-weight:900;
+}
+
+.tribe-common .tribe-common-h2{
+ font-weight:900;
+}
+
+.tribe-common .tribe-common-h1{
+ font-weight:900;
+}
+
+.tribe-common .tribe-common-c-btn{
+ font-weight:800;
+}
+
+
+.tribe-checkout-backlinks{
+ display:inline-grid!important;
+}
+
+a.tribe-checkout-backlink{
+ display:inline!important;
+}
+
+.hentry .entry-content a:not(.button){
+ text-decoration:none;
+}
+
+body.page-tribe-attendee-registration .entry-content * , body.page-tribe-attendee-registration .entry-header *{
+ max-width:auto !important ;
+}
+
+body.page-tribe-attendee-registration *{
+ max-width:auto !important;
+}
+
+body.page-tribe-attendee-registration .tribe-common .tribe-tickets__registration__actions{
+ margin:32px auto 8px !important;
+}
+
+.tribe-common .tribe-common-h1--min-medium{
+ font-weight:900!important;
+}
+
+body.page-tribe-attendee-registration .tribe-common .tribe-tickets__mini-cart__title{
+ font-weight:900 !important;
+}
+.tribe-common div.tribe-dialog {z-index:2;}

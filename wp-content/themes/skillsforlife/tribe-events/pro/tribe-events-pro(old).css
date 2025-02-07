@@ -1,0 +1,49 @@
+.tribe-events-loop .tribe-events-event-meta {
+border: 0px;
+margin-top: 12px;
+padding: 20px 20px 5px 20px;
+background: #121316;
+border-radius: 5px;
+}
+.tribe-events-list .tribe-events-event-image img {
+height: auto;
+margin: 0;
+padding: 0;
+width: 100%;
+z-index: 1;
+position: relative;
+border-bottom-left-radius: 5px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+.tribe-events-loop .tribe-events-content {
+float: left;
+text-align: justify;
+background: #121316;
+padding: 20px;
+border-radius: 5px;
+}
+#tribe-events .tribe-events-loop .tribe-events-content {
+padding: 20px;
+}
+.tribe-events-list .type-tribe_events {
+margin-bottom: 3rem;
+}
+.single-tribe_events .secondary .tribe-events-venue-map {
+width: 47%;
+}
+.tribe-events-adv-list-widget .type-tribe_events {
+padding: 20px;
+}
+.tribe-week-grid-hours {
+background-color: transparent;
+position: relative;
+z-index: 20
+}
+.tribe-events-widget-link {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.tribe-venue-widget-wrapper {
+    padding: 20px;
+}

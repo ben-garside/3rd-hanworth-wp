@@ -1,0 +1,19 @@
+#tribe-events-photo-events {
+background: none;
+box-shadow: none;
+padding: 0;
+border-radius: 0px;
+}
+div.tribe-events-photo-event-wrap {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.tribe-events-list .tribe-events-loop .tribe-event-featured {
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.type-tribe_events.tribe-events-photo-event .tribe-events-photo-event-wrap:hover {
+background-color: #9e9e9e !important;
+color: #FFF;
+}
+.tribe-events-page-title {display: none;}

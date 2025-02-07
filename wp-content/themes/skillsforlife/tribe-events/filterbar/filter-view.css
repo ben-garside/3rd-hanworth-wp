@@ -1,0 +1,41 @@
+.tribe-events-filters-horizontal .tribe-events-filters-content {
+border: 0px ;
+color" #FFF;
+}
+#tribe-bar-views .tribe-bar-views-inner {
+}
+#tribe_events_filters_wrapper .tribe-events-filters-group-heading {
+}
+#tribe_events_filters_wrapper .closed .tribe-events-filters-group-heading:hover {
+background: none;
+}
+.tribe-events-filter-group.tribe-events-filter-select {
+}
+.tribe-events-filter-group li {
+}
+#tribe_events_filters_wrapper .tribe-events-filters-group-heading:hover {
+}
+.tribe-events-filter-group.tribe-events-filter-range  {
+}
+.tribe-events-filter-group li:hover {
+background: #4e4e4e;
+}
+#tribe_events_filters_wrapper.tribe-events-filters-horizontal, .tribe-filters-closed #tribe_events_filters_wrapper.tribe-events-filters-horizontal {
+margin: -1.9em 0 2.5em;
+padding: 5px 0px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.62);
+}
+#tribe_events_filter_control #tribe_events_filters_toggle {
+border: 0;
+border-radius: 3px;
+}
+.datepicker.dropdown-menu th {background: #000;}
+#tribe_events_filters_wrapper.tribe-events-filters-horizontal .tribe-events-filters-group-heading {color: #FFF;}
+#tribe_events_filters_wrapper.tribe-events-filters-horizontal .tribe-events-filters-label {color: #FFF;}
+#tribe-bar-form .tribe-bar-submit input[type=submit] {
+background: none;
+border: 2px solid #FFF;
+border-radius: 5px;
+}

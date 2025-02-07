@@ -1,0 +1,88 @@
+.tribe-events-filters-horizontal .tribe-events-filters-content {
+background: none;
+border: 0px solid #212226;
+}
+.tribe-events-filters-content {
+background: #212226;
+padding-top: 10px;
+padding-left: 5px;
+border-left: 0px solid #212226;
+border-right: 0px solid #212226;
+}
+.tribe-events-filters-horizontal #tribe_events_filters_form {
+clear: both;
+display: block;
+padding-top: 3px;
+margin-left: 25px
+}
+#tribe_events_filters_wrapper.tribe-events-filters-horizontal, .tribe-filters-closed #tribe_events_filters_wrapper.tribe-events-filters-horizontal {
+background: #212226;
+margin: -1.9em 0 2.5em;
+padding: 5px 0px;
+position: static;
+width: auto;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.62);
+}
+.tribe-events-filters-horizontal #tribe_events_filter_control a+a {
+margin: 10px 0;
+}
+.tribe-events-filters-horizontal .tribe-events-filter-group:before{
+border-bottom: 7px solid #e0e0e0;
+top: -14px;
+}
+.tribe-events-filters-horizontal .tribe-events-filter-group {
+background: #fff;
+border: 1px solid #e0e0e0;
+box-shadow: 0 0 0 0 #e0e0e0;
+box-sizing: border-box;
+max-width: 210px;
+min-width: 165px;
+position: absolute;
+top: auto;
+z-index: 1000;
+}
+#tribe_events_filters_wrapper .tribe-events-filters-group-heading {
+background: none;
+border-bottom: 0px solid #dadada;
+margin: 0;
+padding: 15px 20px;
+position: relative;
+}
+#tribe_events_filters_wrapper .closed .tribe-events-filters-group-heading:hover {
+background-image: initial;
+background-repeat-x: initial;
+background-repeat-y: initial;
+background-attachment: initial;
+background-position-x: initial;
+background-position-y: initial;
+background-origin: initial;
+background-clip: initial;
+background-size: initial;
+}
+@media screen and (max-width: 768px) { #tribe_events_filter_control a {
+background: #f5f5f5;
+border: 0px solid #e2e2e2;
+border-radius: 5px;
+display: block;
+float: none;
+font-size: 13px;
+font-weight: bold;
+height: 40px;
+line-height: 40px;
+padding: 0;
+text-align: center;
+text-decoration: none;
+width: auto;
+}}
+@media screen and (max-width: 768px) { #tribe_events_filter_control #tribe_events_filters_reset {
+background: #930027;
+color: white;
+border-radius: 5px;
+}}
+#tribe_events_filters_wrapper.tribe-events-filters-horizontal .tribe-events-filters-label, #tribe_events_filters_wrapper.tribe-events-filters-vertical .tribe-events-filters-label {
+border-bottom: 0px solid #f4f4f4;
+display: block;
+padding: 15px;
+}

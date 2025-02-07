@@ -1,0 +1,101 @@
+.tribe-block__tickets__item__attendee__fields{
+ border-bottom-right-radius:10px;
+ border-bottom-left-radius:10px;
+}
+
+.tribe-block__tickets__registration__event{
+ border-radius:10px;
+ margin-top:30px;
+ margin-bottom:0px!important;
+}
+
+.tribe-block__tickets__item__attendee__fields form button{
+ border-radius:3px;
+ font-weight:900;
+}
+
+.tribe-block__tickets__registration__summary header h2 a{
+ font-weight:900;
+}
+
+.tribe-block__tickets__item__attendee__fields .tribe-field label{
+ font-weight:900;
+}
+.tribe-common.tribe-tickets{
+ max-width:100%;
+}
+
+.tribe-common *{
+ font-family:Nunito Sans!important;
+}
+
+.tribe-common .tribe-common-h5{
+ font-weight:900;
+}
+
+.tribe-common .tribe-common-h4{
+ font-weight:900;
+ font-size:26px;
+}
+
+.tribe-common .tribe-common-h3{
+ font-weight:900;
+}
+
+.tribe-common .tribe-common-h2{
+ font-weight:900;
+}
+
+.tribe-common .tribe-common-h1{
+ font-weight:900;
+}
+
+.storefront-breadcrumb{
+ margin-bottom:1px;
+}
+
+.tribe-common .tribe-common-c-btn{
+ background-color:#930027 !important;
+ font-weight:800;
+}
+
+.tribe-common .tribe-common-c-btn, .tribe-common a.tribe-common-c-btn{
+ background-color:#930027 !important;
+}
+
+.tribe-common .tribe-common-c-btn:hover{
+ background-color:#930020 !important;
+}
+
+.tribe-checkout-backlinks{
+ display:inline-grid!important;
+}
+
+a.tribe-checkout-backlink{
+ display:inline!important;
+}
+
+.hentry .entry-content a:not(.button){
+ text-decoration:none;
+}
+
+body.page-tribe-attendee-registration .entry-content * , body.page-tribe-attendee-registration .entry-header *{
+ max-width:auto !important ;
+}
+
+body.page-tribe-attendee-registration *{
+ max-width:auto !important;
+}
+
+body.page-tribe-attendee-registration .tribe-common .tribe-tickets__registration__actions{
+ margin:32px auto 8px !important;
+}
+
+.tribe-common .tribe-common-h1--min-medium{
+ font-weight:900!important;
+}
+
+body.page-tribe-attendee-registration .tribe-common .tribe-tickets__mini-cart__title{
+ font-weight:900 !important;
+}
+

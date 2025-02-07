@@ -1,0 +1,140 @@
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package Skills_for_Life
+ */
+
+get_header();
+?>
+<div class="breadcrumbs">
+	<div class="wrapper">
+		<?php skillsforlife_breadcrumbs(); ?>
+	</div>
+</div>
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+		<div class="wrapper">
+		<div class="entry-content">
+		<?php
+		if ( have_posts() ) :
+
+			if ( is_home() && ! is_front_page() ) :
+				?>
+				<header>
+					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+				</header>
+				<?php
+			endif;
+
+			/* Start the Loop */
+			while ( have_posts() ) :
+				the_post();
+
+				?>
+
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="news-box">
+		<div class="news-box-img">
+		<a href="<?php the_permalink() ?>"><img src="<?php the_post_thumbnail_url(); ?>" /></a>
+		</div>
+		<div class="news-box-main">
+	<header class="news-entry-header">
+
+		<?php
+		if ( is_singular() ) :
+			the_title( '<h1 class="entry-title">', '</h1>' );
+		else :
+			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+		endif;
+
+		if ( 'post' === get_post_type() ) :
+			?>
+			<div class="entry-meta">
+				<?php
+				skillsforlife_posted_on();
+				skillsforlife_posted_by();
+				?>
+			</div><!-- .entry-meta -->
+		<?php endif; ?>
+	</header><!-- .entry-header -->
+
+	<div class="news-entry-content">
+		<?php
+		 the_excerpt(__('(more…)'));
+		?>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<?php skillsforlife_entry_footer(); ?>
+	</footer><!-- .entry-footer -->
+	<div class="clear">
+	</div>
+	</div>
+</article><!-- #post-<?php the_ID(); ?> -->
+</div>
+
+			<?php endwhile;
+
+			the_posts_navigation();
+
+		else :
+
+			?>
+
+<section class="no-results not-found">
+	<header class="page-header">
+		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'skillsforlife' ); ?></h1>
+	</header><!-- .page-header -->
+
+	<div class="page-content">
+		<?php
+		if ( is_home() && current_user_can( 'publish_posts' ) ) :
+
+			printf(
+				'<p>' . wp_kses(
+					/* translators: 1: link to WP admin new post page. */
+					__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'skillsforlife' ),
+					array(
+						'a' => array(
+							'href' => array(),
+						),
+					)
+				) . '</p>',
+				esc_url( admin_url( 'post-new.php' ) )
+			);
+
+		elseif ( is_search() ) :
+			?>
+
+			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'skillsforlife' ); ?></p>
+			<?php
+			get_search_form();
+
+		else :
+			?>
+
+			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'skillsforlife' ); ?></p>
+			<?php
+			get_search_form();
+
+		endif;
+		?>
+	</div><!-- .page-content -->
+</section><!-- .no-results -->
+
+		<?php endif;
+		?>
+		</div>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<?php
+get_footer();

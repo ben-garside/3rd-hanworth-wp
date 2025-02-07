@@ -1,0 +1,17 @@
+.tribe-mini-calendar-event {
+overflow: hidden;
+width: 100%;
+padding-bottom: 5px;
+margin-bottom: 5px;
+border-bottom: 1px dashed #c2c2c2;
+}
+.tribe-events-adv-list-widget .type-tribe_events {
+padding: 20px;
+}
+.tribe-venue-widget-wrapper {
+    padding: 20px;
+}
+.tribe-events-widget-link {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}

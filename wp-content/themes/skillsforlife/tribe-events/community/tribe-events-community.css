@@ -1,0 +1,143 @@
+.tribe-community-events a {
+/* color: #0369ab */
+}
+.tribe-community-events {
+color: #64686c;
+box-sizing: border-box;
+border: 0px solid #212226;
+background: none;
+font-family: TheSerif;
+padding: 0px 30px 0px 30px;
+}
+.tribe-events-community-details {
+background: none;
+border: 0px solid;
+border-radius: 3px;
+margin: 24px 0;
+}
+.tribe-event-venue .sectionheader-label {
+border-bottom: 0px solid #e0e0e0;
+margin-bottom: 16px;
+padding: 16px 0 16px 16px;
+width: 100%
+}
+.tribe-community-events a {
+color: #930027;
+}
+.tribe-event-organizer .sectionheader-label {
+border-bottom: 0px solid #e0e0e0;
+margin-bottom: 32px;
+padding: 16px 0 16px 16px;
+width: 100%
+}
+.tribe-event-organizer {
+border-top: 0px solid #e0e0e0;
+}
+.tribe-image-upload-area {
+background: url(../images/image-icon.png) no-repeat center 15%;
+padding: 30px;
+text-align: center;
+}
+#event_tickets {
+margin: 0px 0px 0px 0px;
+}
+#event_tickets td:first-child td {
+padding: 5px 20px 10px 20px;
+}
+#event_tickets td:first-child {
+padding-left: 0px;
+padding-right: 0px;
+}
+td.tribe_sectionheader {
+padding-left: 20px;
+}
+.recurrence-row td {
+border-top: 0px solid #dfdfdf;
+}
+.eventForm td {
+font-size: 12px;
+padding: 20px 20px 20px 20px;
+}
+ul.tribe-categories-with-children {
+list-style: none;
+}
+ul.children.tribe-hide {
+list-style: none;
+}
+div.events-community-post-content {
+padding-top: 20px;
+}
+div#not-user.not-user {
+display: inline-block;
+float: right;
+}
+div#my-events.my-events.enhanced {
+padding-bottom: 20px;
+display: block;
+}
+input#post_title{
+border-radius: 5px;
+width: 100%
+}
+div#add-new {
+display: inline;
+float: right;
+}
+a.table-menu-btn.button {
+float: left;
+}
+div.table-menu.table-menu-hidden {
+padding-top: 20px;
+padding-left: 0px;
+display: none;
+}
+div.table-menu {
+padding-top: 20px;
+padding-left: 0px;
+list-style-type: none;
+}
+#tribe-events-report .tribe-scrollable-table {
+	background: #212226;
+	display: inline;
+padding: 0px;
+}
+#tribe-attendees-summary .welcome-panel-last {
+border-left: 0px solid #eee;
+float: right;
+padding: 0px 0px 0px 0px;
+width: 100%;
+list-style: none;
+margin-left: -10px;
+}
+div.alignright.attendees-filter{
+display: inline;
+float: left;
+margin-left: 1em;
+margin-bottom: 1em;
+}
+#tribe-events-report .wp-list-table {
+border-bottom: none;
+border-collapse: separate;
+border-spacing: 0px;
+font-size: 14px;
+margin-bottom: 20px;
+width: 100%;
+}
+#tribe-events-report .button, #tribe-events-report .export.button {
+display: inline;
+font-size: 19.2px;
+font-size: 1.2rem;
+line-height: normal;
+padding: 10px 20px;
+float: right;
+}
+/** Style Homepage Week Widget */
+.tribe-this-week-widget-weekday-wrapper {
+margin-bottom: 10px;
+min-height: 170px;
+overflow: hidden;
+background-color: #212226;
+}
+.tribe-this-week-widget-horizontal .tribe-this-week-widget-day {
+color: white;
+}
